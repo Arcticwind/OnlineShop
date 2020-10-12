@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_registration_layout"
+    android:padding="@dimen/padding_registration_layout">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_registration_element"
+        android:gravity="center_horizontal"
+        android:text="@string/registration"
+        android:textColor="@color/colorItemTitle"
+        android:textSize="@dimen/title_font_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_registration_element"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/e_mail"
+            android:textColor="@color/colorItemTitle"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/et_registration_email"
+            app:layout_constraintEnd_toEndOf="@+id/et_registration_email"
+            app:layout_constraintStart_toStartOf="@+id/et_registration_email" />
+
+        <EditText
+            android:id="@+id/et_registration_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:gravity="center_horizontal"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/login_registration_input_text_size" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/password"
+            android:textColor="@color/colorItemTitle"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registration_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:gravity="center_horizontal"
+            android:inputType="textPassword"
+            android:textSize="@dimen/login_registration_input_text_size" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/repeat_password"
+            android:textColor="@color/colorItemTitle"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_registration_password_repeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:gravity="center_horizontal"
+            android:inputType="textPassword"
+            android:textSize="@dimen/login_registration_input_text_size" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_registration_register"
+        style="@style/generalBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

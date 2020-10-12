@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_drawer_main"
+        android:title="@string/main"
+        android:icon="@drawable/ic_main"/>
+
+    <item
+        android:id="@+id/menu_drawer_store"
+        android:title="@string/store"
+        android:icon="@drawable/ic_store"/>
+
+    <item
+        android:id="@+id/menu_drawer_history"
+        android:title="@string/history"
+        android:icon="@drawable/ic_history"/>
+
+    <item
+        android:id="@+id/menu_drawer_statistic"
+        android:title="@string/statistic"
+        android:icon="@drawable/ic_statistic"/>
+
+    <item
+        android:id="@+id/menu_drawer_items_sold"
+        android:title="@string/sold_items"
+        android:icon="@drawable/ic_money"/>
+
+    <item android:title="@string/support">
+        <menu>
+            <item
+                android:id="@+id/menu_drawer_logout_out"
+                android:title="@string/log_out"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+</menu>

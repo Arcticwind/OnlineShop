@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B1875</color>
+    <color name="colorPrimaryDark">#100E5C</color>
+    <color name="colorAccent">#13857B</color>
+    <color name="colorButton">#1B1875</color>
+
+    <color name="colorWhite">#FFF</color>
+    <color name="colorLightGray">#CACACA</color>
+
+    <color name="colorLoginBackground">#FFFFFF</color>
+
+    <color name="colorInStock">#8BC34A</color>
+    <color name="colorAlmostGone">#FF9800</color>
+    <color name="colorSoldOut">#F44336</color>
+
+    <color name="colorItemTitle">#3F51B5</color>
+    <color name="colorText">#000</color>
+    <color name="common_border_color">#000</color>
+
+</resources>

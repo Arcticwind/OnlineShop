@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_current_month"
+        android:title="@string/menu_entries_this_month"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_search_month"
+        android:title="@string/menu_search_by_month"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_search_date"
+        android:title="@string/menu_search_by_date"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_show_last"
+        android:title="@string/menu_last_x_entries"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_show_all"
+        android:title="@string/menu_all_entries"
+        app:showAsAction="never" />
+
+</menu>

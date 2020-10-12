@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dialog_horizontal_margin"
+    android:paddingTop="@dimen/dialog_vertical_margin"
+    android:paddingRight="@dimen/dialog_horizontal_margin"
+    android:paddingBottom="@dimen/dialog_vertical_margin">
+
+    <EditText
+        android:id="@+id/et_dialog_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="3"
+        android:hint="@string/dialog_enter_a_number" />
+
+</LinearLayout>

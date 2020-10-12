@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_drawer_user_sort"
+        android:title="@string/sort"
+        android:icon="@drawable/ic_sort_purple"/>
+
+    <item
+        android:id="@+id/menu_drawer_user_cart"
+        android:title="@string/cart"
+        android:icon="@drawable/ic_shopping_cart_purple"/>
+
+    <item
+        android:id="@+id/menu_drawer_user_receipts"
+        android:title="@string/receipt"
+        android:icon="@drawable/ic_receipt_total"/>
+
+
+    <item android:title="@string/support">
+        <menu>
+            <item
+                android:id="@+id/menu_drawer_user_logout_out"
+                android:title="@string/log_out"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+</menu>

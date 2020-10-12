@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="currency_list">
+        <item name="HRK">HRK</item>
+        <item name="EUR">EUR</item>
+        <item name="CHF">CHF</item>
+        <item name="USD">USD</item>
+    </string-array>
+
+    <string-array name="query_order_by">
+        <item name="title">title</item>
+        <item name="price">price</item>
+        <item name="quantity">quantity</item>
+    </string-array>
+
+    <string-array name="query_direction">
+        <item name="ascending">0</item>
+        <item name="descending">1</item>
+    </string-array>
+
+</resources>

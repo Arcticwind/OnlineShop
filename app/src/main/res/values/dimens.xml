@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_login_layout">16dp</dimen>
+    <dimen name="padding_login_layout">24dp</dimen>
+    <dimen name="margin_registration_element">4dp</dimen>
+    <dimen name="margin_registration_layout">8dp</dimen>
+    <dimen name="padding_store_item">8dp</dimen>
+    <dimen name="margin_store_item">8dp</dimen>
+    <dimen name="padding_add_edit">16dp</dimen>
+    <dimen name="margin_add_edit">8dp</dimen>
+    <dimen name="margin_fab">16dp</dimen>
+    <dimen name="dialog_horizontal_margin">16dp</dimen>
+    <dimen name="dialog_vertical_margin">16dp</dimen>
+    <dimen name="margin_layout_main">24dp</dimen>
+    <dimen name="margin_add_edit_element">8dp</dimen>
+    <dimen name="margin_reset_layout">16dp</dimen>
+    <dimen name="margin_reset_layout_element">8dp</dimen>
+    <dimen name="title_font_size">24sp</dimen>
+    <dimen name="padding_registration_layout">16sp</dimen>
+    <dimen name="margin_item_user_store">12dp</dimen>
+    <dimen name="margin_card_view_shopping_cart">4dp</dimen>
+    <dimen name="login_registration_input_text_size">24sp</dimen>
+</resources>

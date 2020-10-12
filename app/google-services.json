@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "917879984974",
+    "firebase_url": "https://onlinestore-e6e17.firebaseio.com",
+    "project_id": "onlinestore-e6e17",
+    "storage_bucket": "onlinestore-e6e17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917879984974:android:26fb62afe4a5d76a58441f",
+        "android_client_info": {
+          "package_name": "com.daniel.onlineshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917879984974-mtr3cpsg0bm20v34rsf2fu3vqhg7rjsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg7es-SJS6EKoQrurwLV8HLBG9vIk-Ohc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917879984974-mtr3cpsg0bm20v34rsf2fu3vqhg7rjsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
